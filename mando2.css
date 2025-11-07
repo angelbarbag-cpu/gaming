@@ -1,5 +1,4 @@
 body {
-body {
   --gpv-body-color: #000000; /* cuerpo negro */
   --gpv-accent-color: #d4af37; /* dorado principal */
   --gpv-dpad-color: #d4af37;
@@ -15,3 +14,4 @@ body {
 .gpv-controller * {
   filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.7));
 }
+
