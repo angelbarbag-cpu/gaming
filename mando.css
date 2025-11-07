@@ -1,0 +1,16 @@
+body {
+  --gpv-body-color: #0a0a0a; /* Color base del cuerpo */
+  --gpv-accent-color: #00bfff; /* Color de acento (botones, sticks, etc.) */
+  --gpv-dpad-color: #00bfff;
+  --gpv-button-face: #00bfff;
+  --gpv-touchpad-color: #001f3f;
+  --gpv-stick-color: #0077ff;
+  --gpv-trigger-color: #0077ff;
+  --gpv-bumper-color: #0077ff;
+  --gpv-thumb-color: #00bfff;
+}
+
+/* Efecto brillante */
+.gpv-controller * {
+  filter: drop-shadow(0 0 6px rgba(0, 191, 255, 0.6));
+}
