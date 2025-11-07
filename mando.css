@@ -1,16 +1,16 @@
 body {
-  --gpv-body-color: #0a0a0a; /* Color base del cuerpo */
-  --gpv-accent-color: #00bfff; /* Color de acento (botones, sticks, etc.) */
-  --gpv-dpad-color: #00bfff;
-  --gpv-button-face: #00bfff;
-  --gpv-touchpad-color: #001f3f;
-  --gpv-stick-color: #0077ff;
-  --gpv-trigger-color: #0077ff;
-  --gpv-bumper-color: #0077ff;
-  --gpv-thumb-color: #00bfff;
+  --gpv-body-color: #000000; /* cuerpo negro */
+  --gpv-accent-color: #d4af37; /* dorado principal */
+  --gpv-dpad-color: #d4af37;
+  --gpv-button-face: #d4af37;
+  --gpv-touchpad-color: #1a1a1a;
+  --gpv-stick-color: #d4af37;
+  --gpv-trigger-color: #d4af37;
+  --gpv-bumper-color: #d4af37;
+  --gpv-thumb-color: #d4af37;
 }
 
-/* Efecto brillante */
+/* Brillo dorado */
 .gpv-controller * {
-  filter: drop-shadow(0 0 6px rgba(0, 191, 255, 0.6));
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.7));
 }
